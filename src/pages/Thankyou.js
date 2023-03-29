@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React from "react";
 import projectData from "../thankyous.json";
 import { useState } from "react";
