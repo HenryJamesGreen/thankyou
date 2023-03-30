@@ -2,7 +2,8 @@
   {
     "id": 1,
     "name": "Henry Green",
-    "description": "As I write this at 03:40 am, I think to myself 'why in the bloody hell did I take this on?!'. Nirmeet, Chelsea, John, Chadrick, Laura, Lee and all the other team, I think I speak for everyone when I say a huge THANK YOU for being so kind, considerate and helpful. You've taken a technological idiot and turned into a slightly less technological idiot, and for that I will be eternally grateful! Wishing you all the best of luck in whatever you do."
+    "description": "As I write this at 03:40 am, I think to myself 'why in the bloody hell did I take this on?!'. Nirmeet, Chelsea, John, Chadrick, Laura, Lee and all the other team, I think I speak for everyone when I say a huge THANK YOU for being so kind, considerate and helpful. You've taken a technological idiot and turned into a slightly less technological idiot, and for that I will be eternally grateful! Wishing you all the best of luck in whatever you do.",
+    "turtle": "/images/turtles/Henry.jpg"
   },
   {
     "id": 2,
@@ -113,7 +114,7 @@
     "id": 23,
     "name": "Jenny Hull",
     "description": "Thank you Nirmeet, Chelsea and the rest of the team!  Thanks to your patience, guidance and encouragement I've learned more and worked harder on this course than I thought was possible for me, and I am so excited to keep learning! The last 4 months have absolutely flown by. I will miss working with you, and wish you all the best for whatever wonderful things you do next. Thank you!💗 ",
-    "image":"./images/pika.gif"
+    "image": "./images/pika.gif"
   },
   {
     "id": 24,
@@ -124,5 +125,20 @@
     "id": 25,
     "name": "Amiker",
     "description": "Big thank you to Nirmeet, Chadrick, Sade and all the TAs for getting us through the last 16 weeks! Couldn't have done it without your constant support and genuine care and willingness to help. I have learnt so much during this bootcamp and cant wait to see where my career takes me! Thanks again 💗"
+  },
+  {
+    "id": 26,
+    "name": "Keith Howell",
+    "description": "Thank you Nirmeet for your tutoring style as it helped tremendously, to make the course content engaging, and for breaking down concepts, to keep us all motivated. (Not forgetting Paul). A special shout-out to Chadrick, Austin and all the other TA's who made this journey possible throughout the past 16 weeks, those constant support and giving of there time and willingness to assist, has placed me on a path for further growth… Many blessings to you all !!"
+  },
+  {
+    "id": 27,
+    "name": "Aleeza",
+    "description": "Thanks to all the tas for doing such a great job over these past few months :face_holding_back_tears:. Special s/o to austin for going above and beyond. I hope you all become tech millionaires and are immensely happy in your lives 🤞 😊 💓"
+  },
+  {
+    "id": 28,
+    "name": "David Salvat",
+    "description": "I've had a great time over the last few months and learnt a lot more than I thought possible. Thanks to everyone for all the amazing content and encouragement. I hope we all stay in touch in the future!"
   }
 ]
