@@ -1,3 +1,4 @@
+/* eslint-disable */
 import * as React from 'react';
 import BottomNavigation from '@mui/material/BottomNavigation';
 import BottomNavigationAction from '@mui/material/BottomNavigationAction';
@@ -6,7 +7,7 @@ import RestoreIcon from '@mui/icons-material/Restore';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 
-export default function Footer() {
+function Footer() {
   const [value, setValue] = React.useState('recents');
 
   const handleChange = (event, newValue) => {
@@ -14,7 +15,7 @@ export default function Footer() {
   };
 
   return (
-    <BottomNavigation sx={{ width: 500 }} value={value} onChange={handleChange}>
+    <BottomNavigation sx={{ width: 500 , flexGrow: 1, m: 1, width: "80vw", margin: "auto", backgroundColor: "rgba(0,0,0,0.5)", marginTop: "300px" }} value={value} onChange={handleChange}>
       <BottomNavigationAction
         label="Recents"
         value="recents"
@@ -34,3 +35,5 @@ export default function Footer() {
     </BottomNavigation>
   );
 }
+
+export default Footer
