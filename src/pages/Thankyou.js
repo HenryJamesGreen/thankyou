@@ -7,15 +7,15 @@ import Content from "../components/Content";
 import Sound from "../sounds/sound.wav";
 
 function Thankyou() {
-  // const playSound = () => {
-  //   const audio = new Audio(Sound);
-  //   audio.play();
-  // };
+  const playSound = () => {
+    const audio = new Audio(Sound);
+    audio.play();
+  };
 
-  // //play sound on load
-  // useEffect(() => {
-  //   playSound();
-  // }, []);
+  //play sound on load
+  useEffect(() => {
+    playSound();
+  }, []);
   // Set userState.
   // Set the initial value to friendsData imported from the json file.
   const [projects, setProjects] = useState(projectData);
