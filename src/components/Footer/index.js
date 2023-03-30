@@ -16,7 +16,7 @@ function Footer() {
       <div className='footer-div'>
         <div className='credit-div'><BuildCircleIcon />
           <h4 className='footer-text'>  
-            Built by Henry, Lorenzo and Jenny 
+            A Poképod Production
           </h4>
         </div>
       <div className='second-row'>
