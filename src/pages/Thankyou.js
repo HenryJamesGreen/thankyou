@@ -1,11 +1,21 @@
 /* eslint-disable */
 import React from "react";
 import projectData from "../thankyous.json";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Grid, Typography, Box } from "@mui/material";
 import Content from "../components/Content";
+import Sound from "../sounds/sound.wav";
 
 function Thankyou() {
+  const playSound = () => {
+    const audio = new Audio(Sound);
+    audio.play();
+  };
+
+  //play sound on load
+  useEffect(() => {
+    playSound();
+  }, []);
   // Set userState.
   // Set the initial value to friendsData imported from the json file.
   const [projects, setProjects] = useState(projectData);
