@@ -1,9 +1,14 @@
 import { Modal } from '@material-ui/core';
+import { useState } from 'react';
+import { Button } from '@mui/material';
 
-const [open, setOpen] = useState(false);
 
-function Modal() {
-    <div>
+
+function Modall() {
+   const [open, setOpen] = useState(false);   
+   return(
+  
+  <div>
 
 <Button onClick={() => setOpen(true)}>Open Modal</Button>
 <Modal open={open} onClose={() => setOpen(false)}>
@@ -15,5 +20,5 @@ function Modal() {
   </div>
 </Modal>
 </div>
-
-}
+)
+}export default Modall
