@@ -26,5 +26,5 @@ Along with React, this app was built with MUI components, Spotify embedding, CSS
 
 
 ## Screenshots
-![a beautiful turtle drawn by someone in class](/src/images/turtles/David.jpg)
+![a beautiful turtle drawn by someone in class](./src/images/turtles/David.jpg)
 
