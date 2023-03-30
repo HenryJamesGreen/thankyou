@@ -6,6 +6,7 @@ import AccordionDetails from "@mui/material/AccordionDetails";
 import Typography from "@mui/material/Typography";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import image from "../../images/pika.gif";
+import projectData from "../../thankyous.json"
 
 function Content(props) {
   const [expanded, setExpanded] = useState(false);
