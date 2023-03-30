@@ -1,5 +1,5 @@
 # Thank you app
 Deployed app:
 
-https://thankyou-very-much.netlify.app/thankyou
+https://thankyou-very-much.netlify.app/
 
