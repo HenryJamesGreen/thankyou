@@ -1,0 +1,55 @@
+.footer-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1rem;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.credit-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-text {
+    padding-left: 10px;
+}
+
+.second-row {
+    display: flex;
+    /* flex-direction: row; */
+    align-items: center;
+    justify-content: center;
+
+}
+
+.link-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;;
+    padding-top: 0;
+}
+
+.link {
+    padding-left: 10px;
+    text-decoration: none;
+    color: aqua;
+}
+
+.second-text {
+    margin-top: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.git-icon {
+    padding-right: 10px;
+}
