@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import Thankyou from "./pages/Thankyou";
 import './App.css';
 import ResponsiveAppBar from './components/ResponsiveAppBar';
+import Footer from "./components/Footer";
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Route path="/thankyou" element={<Thankyou />} />
         <Route path="/*" element={<Home />} />
       </Routes>
+      <Footer/>
     </BrowserRouter>
   );
 }
