@@ -4,6 +4,7 @@ import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import Typography from "@mui/material/Typography";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+import image from "../../images/pika.gif"
 
 function Content(props) {
   const [expanded, setExpanded] = useState(false);
@@ -20,6 +21,7 @@ function Content(props) {
         </AccordionSummary>
         <AccordionDetails>
           {expanded && <Typography>{props.description}</Typography>}
+          <img src={image}/>
         </AccordionDetails>
       </Accordion>
     </>
