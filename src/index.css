@@ -5,6 +5,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url("./images/kristian-lovstad-xplrF8WMitE-unsplash.jpg");
+  background-repeat: none;
+  background-size: cover;
 }
 
 code {
