@@ -4,6 +4,7 @@ import projectData from "../thankyous.json";
 import { useState } from "react";
 import { Grid, Typography, Box } from "@mui/material";
 import Content from "../components/Content";
+import Image from "../images/pika.gif"
 
 function Thankyou() {
   // Set userState.
@@ -28,6 +29,7 @@ function Thankyou() {
                 key={thanks.id}
                 name={thanks.name}
                 description={thanks.description}
+                image={thanks.image}
               />
             </Grid>
           ))}
