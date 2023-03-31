@@ -12,7 +12,7 @@ export default function Home() {
         </div>
         <div className='wrapper'>
             <div className='body'>
-                <h2 className='header'> To Nirmeet, Chelsea, Chadrick, John, Austin I., Austin S., Lee, Matthew, Paul and Laura</h2>
+                <h2 className='header'> To Nirmeet, Chelsea, Chadrick, John, Austin I., Austin S., Lee, Matthew, Paul, Laura and Sade</h2>
                 <p className='message'>We've knocked up a quick something to let you all know how grateful we are for all of your help on this journey.
                 <br /> <br />
                 We couldn't have done it without you. 
