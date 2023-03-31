@@ -1,9 +1,26 @@
-import { Modal } from '@material-ui/core';
-import { Button } from '@mui/material';
+import Modal from '@mui/material/Modal';
+import { Button, Box } from '@mui/material';
 
 
 
 function Modall() {
+    const handleOpen = () => {
+    setOpen(true);
+  };
+
+  const handleClose = () => {
+    setOpen(false);
+  };
+    const style = {
+    position: 'absolute',
+    top: '50%',
+    left: '50%',
+    transform: 'translate(-50%, -50%)',
+    bgcolor: 'background.paper',
+    border: '2px solid #000',
+    boxShadow: 24,
+    p: 4,
+  };
  return (
     <div>
       <Button onClick={handleOpen}>Open modal</Button>
