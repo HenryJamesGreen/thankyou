@@ -6,6 +6,7 @@ import { Grid, Typography, Box } from "@mui/material";
 import Content from "../components/Content";
 import Sound from "../sounds/sound.wav";
 import Spotify from "../components/Content/spotify";
+import Modall from "../components/modal/modal";
 
 function Thankyou() {
 	// const playSound = () => {
@@ -69,8 +70,10 @@ function Thankyou() {
 					))}
 				</Grid>
 				<Spotify />
+				<Modall></Modall>
 			</div>
 		</Box>
+		
 	);
 }
 
