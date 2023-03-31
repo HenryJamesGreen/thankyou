@@ -9,15 +9,15 @@ import Spotify from "../components/Content/spotify";
 import Modall from "../components/modal/modal";
 
 function Thankyou() {
-	// const playSound = () => {
-	//   const audio = new Audio(Sound);
-	//   audio.play();
-	// };
+	const playSound = () => {
+	  const audio = new Audio(Sound);
+	  audio.play();
+	};
 
-	// //play sound on load
-	// useEffect(() => {
-	//   playSound();
-	// }, []);
+	//play sound on load
+	useEffect(() => {
+	  playSound();
+	}, []);
 	// Set userState.
 	// Set the initial value to friendsData imported from the json file.
 	const [projects, setProjects] = useState(projectData);
