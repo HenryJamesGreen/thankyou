@@ -179,8 +179,18 @@
   },
   {
     "id": 36,
-    "name": "Murteza",
+    "name": "Murtaza",
     "description": "Nirmeet I wanted to express my sincerest gratitude for all the hard work and dedication you have put into guiding us through this bootcamp. Your constant support, patience, and willingness to help has been truly inspiring and has helped me learn so much in the past 16 weeks. I feel incredibly fortunate to have had such a wonderful team of instructors and TAs who genuinely care about our success and well-being. I have gained invaluable skills and knowledge that I know will serve me well in my future career, and I owe it all to your expertise and guidance."
-  }     
+  },
+  {
+    "id": 37,
+    "name": "Iwona Malkinska",
+    "description": "Thank you Nirmeet for being such an amazing and great instructor!  Also thank you to all the TAs for being so helpful!! It's been a unique experience and I've learnt so much, I will forever be grateful.🤍"
+  },
+  {
+    "id": 38,
+    "name": "Kelly Serika",
+    "description": "Thank you to everyone who made this a wonderful experience for me. Nirmeet has been a great help throughout the course. I came here with a little knowledge in front-end development and I feel like I have been given a boost forward to using it in future. Thanks to all the TA's and teammates I have met during this course. Thank You."
+  }            
 
 ]
