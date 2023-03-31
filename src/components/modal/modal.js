@@ -1,24 +1,26 @@
 import { Modal } from '@material-ui/core';
-import { useState } from 'react';
 import { Button } from '@mui/material';
 
 
 
 function Modall() {
-   const [open, setOpen] = useState(false);   
-   return(
-  
-  <div>
-
-<Button onClick={() => setOpen(true)}>Open Modal</Button>
-<Modal open={open} onClose={() => setOpen(false)}>
-  <div className={classes.paper}>
-    <h2 id="simple-modal-title">Modal Title</h2>
-    <p id="simple-modal-description">
-      This is the modal content.
-    </p>
-  </div>
-</Modal>
-</div>
-)
-}export default Modall
+ return (
+    <div>
+      <Button onClick={handleOpen}>Open modal</Button>
+      <Modal
+        open={open}
+        onClose={handleClose}
+        aria-labelledby="parent-modal-title"
+        aria-describedby="parent-modal-description"
+      >
+        <Box sx={{ ...style, width: 400 }}>
+          <h2 id="parent-modal-title">Text in a modal</h2>
+          <p id="parent-modal-description">
+            Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
+          </p>
+          <ChildModal />
+        </Box>
+      </Modal>
+    </div>
+  );
+} export default Modall
