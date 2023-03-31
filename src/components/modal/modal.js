@@ -29,8 +29,8 @@ function Modall() {
     
   };
  return (
-    <div>
-      <Button onClick={handleOpen}>Click here for a suprise!</Button>
+    <div className='buttondiv'>
+      <Button className='byeet' onClick={handleOpen}>Click here for a suprise!</Button>
       <Modal 
         
         open={open}
@@ -39,7 +39,7 @@ function Modall() {
         aria-describedby="parent-modal-description"
       >
         <Box className='modalCss' sx={{ ...style, width: 400 }}>
-          <h2 id="parent-modal-title">Text in a modal</h2>
+         <div className='imageDiv'> <h2 id="parent-modal-title">Thank you for this special image from Yuen Lok Si (Laura)</h2></div>
         <div className='imageDiv'><img className="image" src='./image.png'></img></div> 
          
         </Box>

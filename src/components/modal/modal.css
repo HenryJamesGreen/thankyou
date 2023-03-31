@@ -6,6 +6,41 @@
 
 .image{
     width: 300px ;
-   justify-content: center;
-   display:flex
+    
+  
 }
+
+.imageDiv{
+     justify-content: center;
+   display:flex;
+   text-align: center;
+}
+
+.byeet{
+background-color: #f44336 !important;
+ 
+    border: none !important;
+    text-decoration: none!important;
+    color: white!important;
+    padding: 14px 31px!important;
+    text-align: center!important;
+   transition-duration: 0.5s!important;
+    font-size: 16px!important;
+    margin: 4px 2px!important;
+    
+     border-radius: 5px!important;
+     cursor: pointer!important;
+   
+  display: inline-block!important;
+}
+  .byeet:hover {
+      color: white !important;
+      background-color: #fc815b !important;
+  }
+
+  .buttondiv{
+   display: flex;
+    justify-content: center; 
+  }
+
+  
