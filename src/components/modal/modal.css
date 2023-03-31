@@ -1,0 +1,11 @@
+.modalCss{
+   width: 300px;
+   height: 400px;
+  
+}
+
+.image{
+    width: 300px ;
+   justify-content: center;
+   display:flex
+}

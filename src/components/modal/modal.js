@@ -1,6 +1,7 @@
 import Modal from '@mui/material/Modal';
 import { Button, Box } from '@mui/material';
 import { useState } from 'react';
+import "./modal.css"
 
 
 function Modall() {
@@ -22,19 +23,24 @@ function Modall() {
     border: '2px solid #000',
     boxShadow: 24,
     p: 4,
+
+    
+    
+    
   };
  return (
     <div>
       <Button onClick={handleOpen}>Click here for a suprise!</Button>
-      <Modal
+      <Modal 
+        
         open={open}
         onClose={handleClose}
         aria-labelledby="parent-modal-title"
         aria-describedby="parent-modal-description"
       >
-        <Box sx={{ ...style, width: 400 }}>
+        <Box className='modalCss' sx={{ ...style, width: 400 }}>
           <h2 id="parent-modal-title">Text in a modal</h2>
-        <img src='./image.png'></img> 
+        <div className='imageDiv'><img className="image" src='./image.png'></img></div> 
          
         </Box>
       </Modal>
