@@ -14,7 +14,7 @@
 .thanks-type {
     color: #77e636;
     font-size: 6rem;
-    max-width: 7em;
+    max-width: 7.5em;
     overflow: hidden;
     border-right: .1em solid rgb(255, 255, 255);
     white-space: nowrap;
@@ -24,6 +24,7 @@
         typing 3.5s steps(40, end),
         blink-caret .75s step-end infinite;
 }
+
 
 @keyframes typing {
     from { width: 0 }
