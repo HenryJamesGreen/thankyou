@@ -40,7 +40,7 @@ function Modall() {
       >
         <Box className='modalCss' sx={{ ...style, width: 400 }}>
          <div className='imageDiv'> <h2 id="parent-modal-title">Thank you for this special image from Yuen Lok Si (Laura)</h2></div>
-        <div className='imageDiv'><img className="image" src='./image.png'></img></div> 
+        <div className='imageDiv'><img className="image" src='./image.png' alt='an illustration of Nirmeet'></img></div> 
          
         </Box>
       </Modal>
