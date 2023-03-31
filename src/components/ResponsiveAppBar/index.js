@@ -11,8 +11,9 @@ import Container from "@mui/material/Container";
 import Button from "@mui/material/Button";
 import MenuItem from "@mui/material/MenuItem";
 import { Link } from "react-router-dom";
+import './Navbar.css'
 
-const pages = ["Home", "Thankyou"];
+const pages = ["Home", "Thank You"];
 
 function ResponsiveAppBar() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -63,7 +64,7 @@ function ResponsiveAppBar() {
             >
               {pages.map((page) => (
                 <MenuItem key={page} onClick={handleCloseNavMenu}>
-                  <Typography textAlign="center">
+                  <Typography className='navlink' textAlign="center">
                     <Link
                       style={{ textDecoration: "none", color: "black" }}
                       to={`/${page.toLowerCase()}`}
@@ -80,14 +81,15 @@ function ResponsiveAppBar() {
             sx={{
               flexGrow: 1,
               display: { xs: "none", md: "flex" },
-              justifyContent: "center",
+              justifyContent: "space-around",
             }}
           >
             {pages.map((page) => (
               <Button
+                className="navlink"
                 key={page}
                 onClick={handleCloseNavMenu}
-                sx={{ my: 2, color: "white", display: "block" }}
+                sx={{ my: 2, color: "white", borderRadius: 0, fontSize: 25, fontWeight:600, display: "block", borderBottom: "4px solid white" }}
               >
                 <Link
                   style={{ textDecoration: "none", color: "white" }}
