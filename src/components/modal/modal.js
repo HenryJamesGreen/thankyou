@@ -5,7 +5,7 @@ import { useState } from 'react';
 
 function Modall() {
     const [open, setOpen] = useState(false);
-    
+
     const handleOpen = () => {
     setOpen(true);
   };
@@ -25,7 +25,7 @@ function Modall() {
   };
  return (
     <div>
-      <Button onClick={handleOpen}>Open modal</Button>
+      <Button onClick={handleOpen}>Click here for a suprise!</Button>
       <Modal
         open={open}
         onClose={handleClose}
@@ -34,9 +34,7 @@ function Modall() {
       >
         <Box sx={{ ...style, width: 400 }}>
           <h2 id="parent-modal-title">Text in a modal</h2>
-          <p id="parent-modal-description">
-            Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
-          </p>
+        <img src='./image.png'></img> 
          
         </Box>
       </Modal>
