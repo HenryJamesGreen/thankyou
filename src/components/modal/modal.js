@@ -1,9 +1,11 @@
 import Modal from '@mui/material/Modal';
 import { Button, Box } from '@mui/material';
-
+import { useState } from 'react';
 
 
 function Modall() {
+    const [open, setOpen] = useState(false);
+    
     const handleOpen = () => {
     setOpen(true);
   };
@@ -35,7 +37,7 @@ function Modall() {
           <p id="parent-modal-description">
             Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
           </p>
-          <ChildModal />
+         
         </Box>
       </Modal>
     </div>
