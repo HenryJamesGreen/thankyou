@@ -142,7 +142,7 @@
     "name": "David Salvat",
     "description": "I've had a great time over the last few months and learnt a lot more than I thought possible. Thanks to everyone for all the amazing content and encouragement. I hope we all stay in touch in the future!"
   },
-    {
+  {
     "id": 29,
     "name": "Mateus Oliveira",
     "description": "Thank you Nirmeet and all the TA's, especially John who was the TA of my pod5, it's been 16 weeks of a lot of learning and I have no words to describe how grateful and happy I am.  I just wanna say thanks!!"
@@ -196,6 +196,10 @@
     "id": 39,
     "name": "Lee Dillon",
     "description": "Thanks to Nirmeet and all the TA's. I have thoroughly enjoyed every moment of this course and will really miss everyone!"
-  }                 
-
+  },
+  {
+    "id": 40,
+    "name": "NJ",
+    "description": "Thanks to Nirmeet and all the TAs for their effort to make us move forward in development."
+  }
 ]
